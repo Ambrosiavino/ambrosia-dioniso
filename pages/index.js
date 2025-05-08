@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 
-const Dioniso3D = dynamic(() => import('@/components/Dioniso3D'), { ssr: false });
+const Dioniso3D = dynamic(() => import('../components/Dioniso3D'), { ssr: false });
 
 export default function Home() {
   return (
